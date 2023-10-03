@@ -7,7 +7,7 @@ var buildDriver = function() {
     withCapabilities(Capabilities.chrome()).
     build();
 };
-const baseUrl = 'https://k8s.bsstag.com'
+const baseUrl = 'https://k8s.bsstag.com/docs'
 describe('Sample Percy Test', async function() {
   this.timeout(0);
   var driver;
